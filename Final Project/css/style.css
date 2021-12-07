@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedAlmond
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  border-style: double;
+  border-color: Brown;
+  border-width: 50px;
+}
+
+.title {
+  font: Papyrus, serif;
+  font-style: oblique;
+  font-size: 90px;
+  color: Brown;
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  //transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.subtitle {
+  font: Papyrus;
+  font-style:oblique;
+  font-size: 70px
+  position:absolute;
+  color: Brown;
+  margin-top: 170px;
+  margin-left: 50px;
+}
+
+.undercanvas {
+  font: Papyrus;
+  font-style:oblique;
+  font-size: 80px
+  position:absolute;
+  color: Brown;
+  margin-top: 1800px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+img {
+  border-style: double;
+  border-width: 30px;
+  border-color: Brown;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 250px;
+
+}
+
+.intro {
+  font: Papyrus;
+  font-style: normal;
+  font-size: 60px;
+  color: Brown;
+  position: fixed;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+div {
+  #intro
+  white-space: nowrap;
+}
+
+h4 {
+  font: Papyrus;
+  font-style: normal;
+  font-size: 18px;
+  text-align: center;
+  color: Brown;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 60px;
+  white-space: nowrap;
+}
